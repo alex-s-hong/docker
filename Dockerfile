@@ -1,4 +1,5 @@
 FROM registry.access.redhat.com/ubi8/nodejs-16:latest
+USER root
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
